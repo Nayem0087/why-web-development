@@ -1,0 +1,45 @@
+@import "tailwindcss";
+/* .main{
+   width: 100%;
+   background: url(assets/Hero-bg.png);
+   background-position: center;
+   background-size: cover;
+
+} */
+
+/* responsive media query */
+.hide{
+   display: none;
+}
+
+.web-site{
+  
+}
+
+@media screen and (max-width:576px) {
+   .font-skill,
+   .skills{
+      flex-direction: column;
+   }
+   .skill{
+      margin-top: 5px;
+      
+   }
+   .logo-item{
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   .banar{
+      margin: 2px;
+      padding: 2px;
+   }
+   .video{
+      height: auto;
+      width: auto;
+      padding: 10px;
+      justify-items: center;
+      align-items: center;
+
+   }
+}
+
